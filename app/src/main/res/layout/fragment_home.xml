@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondoprincipal"
+    tools:context=".ui.home.HomeFragment">
+
+    <ImageView
+        android:id="@+id/img_logoprincipal"
+        android:layout_width="345dp"
+        android:layout_height="189dp"
+        android:layout_marginTop="44dp"
+        android:src="@drawable/imgfilming"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textPrincipal"
+        android:layout_width="393dp"
+        android:layout_height="79dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/txtPrincipal"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_logoprincipal"></TextView>
+
+    <ImageView
+        android:id="@+id/img_principal"
+        android:layout_width="420dp"
+        android:layout_height="312dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/imgppal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textPrincipal"></ImageView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

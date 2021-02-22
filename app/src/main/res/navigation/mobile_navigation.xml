@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="es.studium.filmingapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_pelicula"
+        android:name="es.studium.filmingapp.ui.pelicula.PeliculaFragment"
+        android:label="@string/menu_pelicula"
+        tools:layout="@layout/fragment_pelicula" />
+
+    <fragment
+        android:id="@+id/nav_serie"
+        android:name="es.studium.filmingapp.ui.series.SeriesFragment"
+        android:label="@string/menu_serie"
+        tools:layout="@layout/fragment_serie" />
+</navigation>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/fondoprincipal"
+    tools:context=".SeriesDetalles">
+
+    <TextView
+        android:id="@+id/txtTituloSerieDetalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/txtTitulo"
+        android:textSize="30sp"
+        android:textStyle="bold"></TextView>
+
+    <ImageView
+        android:id="@+id/imgSerieDetalle"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:paddingTop="5dp" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/director_detalle_serie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/director"
+        android:textSize="17sp"
+        android:textStyle="italic"
+        android:layout_marginTop="5dp"></TextView>
+
+    <TextView
+        android:id="@+id/reparto_detalle_serie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/reparto"
+        android:textSize="17sp"
+        android:textStyle="italic"
+        android:layout_marginTop="5dp"></TextView>
+
+    <TextView
+        android:id="@+id/sinopsi_detalle_serie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/sinopsis"
+        android:textSize="17sp"
+        android:textStyle="italic"
+        android:layout_marginTop="5dp"></TextView>
+
+    <TextView
+        android:id="@+id/temporada_detalle_serie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/temporadas"
+        android:textSize="17sp"
+        android:textStyle="italic"
+        android:layout_marginTop="5dp"></TextView>
+
+    <ImageView
+        android:id="@+id/clasificacion_detalle_serie"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center">
+    </ImageView>
+
+    <Button
+        android:id="@+id/btnVolver"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_gravity="center|center_vertical"
+        android:text="@string/btnVolver" />
+
+
+</LinearLayout>
